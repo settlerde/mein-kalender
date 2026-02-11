@@ -6,12 +6,12 @@
     <title>Mein Kalender 2026</title>
 </head>
 <body>
-    <a href="https://cdemy.de/" target="_blank"><img src="https://cdemy.de/images/logo/logo_cdemy_150_50.png" alt="cdemy kalender" style="display: block; margin-left: auto; margin-right: auto;"></a>
-    <h1 style="text-align: center; color: green;">Mein Kalender 2026</h1>
-    <h2 style="text-align: center; background-color: lightgreen;">Das ist mein neues Schulprojekt, das ich von Zuhause aus mache.</h2>
+    <button  style="display: block; margin-left: auto; margin-right: auto; box-shadow: 5px 5px 5px lightgreen;"><a href="https://cdemy.de/" target="_blank"><img src="https://cdemy.de/images/logo/logo_cdemy_150_50.png" alt="cdemy kalender"></a></button>
+    <h1 style="text-align: center; color: green; box-shadow: 5px 5px 10px grey;">Mein Kalender 2026</h1>
+    <h2 style="text-align: center; background-color: lightgreen; box-shadow: 5px 5px 10px grey;">Das ist mein neues Schulprojekt, das ich von Zuhause aus mache.</h2>
     <p style="text-align: right; margin-right: 20px;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Modi mollitia voluptate optio nulla, quae, assumenda illum inventore,<br> quibusdam nostrum soluta ea possimus eum nam.<br><b><i>Mollitia doloremque harum velit modi perferendis?</i></b></p>
 
-    <table border="2" style="width: 100%; text-align: center;">
+    <table border="2" style="width: 100%; text-align: center; box-shadow: 5px 5px 10px grey;">
         <tr style="background-color: lightgreen;">
             <th>Mo</th>
             <th>Di</th>
@@ -68,8 +68,21 @@
         </tr>
     </table>
 
-    <h3 style="color: green; margin-left: 20px;">Historische Ereignisse an diesem Tag in Deutschland</h3>
-    <div style="background-color: lightgreen; padding: 10px;">
+    <h3 style="color: green; margin-top: 100px; box-shadow: 5px 5px 10px grey; text-align: center;">Historische Ereignisse an diesem Tag in Deutschland</h3>
+    
+        <div style="margin-top: 20px; font-weight: bold; position: relative; box-shadow: 5px 5px 10px grey; padding: 10px; background-color: lightgreen;">
+            <label for="start">Datum auswählen:</label>
+            <input border="1" style="box-shadow: inset 4px 4px 8px grey; width: 20%; padding: 5px;"
+                type="date"
+                id="start"
+                name="trip-start"
+                value="2025-07-22"
+                min="0001-01-01"
+                max="2050-12-31" />
+        </div>
+
+    
+    <div style="background-color: lightgreen; padding: 10px; box-shadow: 5px 5px 10px grey; margin-top: 20px;">
         <ul>
             <li><b>1810:</b> <a href="https://de.wikipedia.org/wiki/Humboldt-Universit%C3%A4t_zu_Berlin" target="_blank" style="text-decoration: none;">Gründung der Universität Berlin </a></li>
             <li><b>1918:</b> <a href="https://de.wikipedia.org/wiki/Novemberrevolution" target="_blank"   style="text-decoration: none;">Novemberrevolution in Deutschland</a></li>
@@ -78,14 +91,14 @@
         </ul>
     </div>
 
-    <div class="photo-row" style="display: flex; justify-content: space-around; margin-top: 20px;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Berlin_Universit%C3%A4t_um_1900.jpg/960px-Berlin_Universit%C3%A4t_um_1900.jpg?20080705154103" alt="Universität Berlin" width=300px height=auto">
-        <img src="https://bilder.deutschlandfunk.de/FI/LE/_8/10/FILE_810584277221b3293c10e8f21219cd02/84067919-jpg-100-1920x1080.jpg" alt="Novemberrevolution in Deutschland" width=300px height=auto">
-        <img src="https://bilder.deutschlandfunk.de/FI/LE/_c/fa/FILE_cfad5b169e0f1c644098b49fc521aaa5/7206879-brb-tor-neu-jpg-100-1920x1080.jpg" alt="Weltkrieg in Europa" width=300px height=auto">
-        <img src="https://www.deutschland.de/sites/default/files/styles/image_container/public/media/image/germany-brandenburger-tor-reunion-fall-of-the-wall.jpg?itok=wIxvEII0" alt="Wiedervereinigung Deutschlands" width=300px height=auto">
+    <div class="photo-row" style="display: flex; justify-content: space-around; margin-top: 20px;  box-shadow: 5px 5px 10px grey;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Berlin_Universit%C3%A4t_um_1900.jpg/960px-Berlin_Universit%C3%A4t_um_1900.jpg?20080705154103" alt="Universität Berlin" width=300px height=auto style="border: 3px solid lightgray;">
+        <img src="https://bilder.deutschlandfunk.de/FI/LE/_8/10/FILE_810584277221b3293c10e8f21219cd02/84067919-jpg-100-1920x1080.jpg" alt="Novemberrevolution in Deutschland" width=300px height=auto style="border: 3px solid lightgray;">
+        <img src="https://bilder.deutschlandfunk.de/FI/LE/_c/fa/FILE_cfad5b169e0f1c644098b49fc521aaa5/7206879-brb-tor-neu-jpg-100-1920x1080.jpg" alt="Weltkrieg in Europa" width=300px height=auto style="border: 3px solid lightgray;">
+        <img src="https://www.deutschland.de/sites/default/files/styles/image_container/public/media/image/germany-brandenburger-tor-reunion-fall-of-the-wall.jpg?itok=wIxvEII0" alt="Wiedervereinigung Deutschlands" width=300px height=auto style="border: 3px solid lightgray;">
     </div>
     
-    <footer style="background-color: lightgray; text-align: center; padding: 10px; margin-top: 20px;">
+    <footer style="background-color: lightgray; text-align: center; padding: 10px; margin-top: 20px; box-shadow: 5px 5px 10px grey;">
         <p>&copy; 2026 Mein Kalender. "Alle Rechte vorbehalten".</p>
 
 </body>
